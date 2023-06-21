@@ -1,0 +1,26 @@
+.grid-container{
+    display: grid;
+    background-color: rgba(237, 198, 204, 0.903);
+    width: 900px;
+    height: 500px;
+    grid-template-columns: 200px 300px 350px;
+    grid-gap: 10px;
+}
+
+
+.grid1 {
+    background-color: rgb(227, 227, 204);
+    border: 2px solid black;
+}
+
+.grid2{
+    background-color: rgb(168, 202, 168);
+    border: 2px dashed black;
+}
+
+.grid3{
+    background-color: rgb(158, 158, 212);
+    border: 2px solid black;
+}
+
+
