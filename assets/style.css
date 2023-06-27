@@ -3,11 +3,14 @@
     padding: 0;
     box-sizing: border-box;
   }
-
-  /* Navigation bar styles */
+header{
+    text-align: center;
+    margin-top: 20px;
+}
+  /* Navigation bar style */
   nav {
-    background-color: #b1addd;
-    padding: 10px;
+    background-color: #b1addd ;
+    padding: 20px;
     margin-top: 20px;
 
   }
@@ -15,6 +18,7 @@
   nav ul {
     list-style-type: none;
     text-align: center;
+
   }
 
   nav ul li {
@@ -27,6 +31,8 @@
     text-decoration: none;
     padding: 5px 10px;
     font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 15px 10px
   }
 
   /* Media queries */
